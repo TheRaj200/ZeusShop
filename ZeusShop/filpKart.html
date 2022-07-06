@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/20d95f2b5f.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+    </style>
+    <title>Document</title>
+</head>
+
+<body class=" p-0 m-0">
+    <section>
+        <nav class=" w-15 h-12 pt-2 bg-red-500  md:h-12 md:translate-y-1">
+            <ul
+                class="  w-15 h-6 md:pt-3 flex items-center justify-center list-none flex-row text-white sm:items-center">
+                <li class=" md:text-xl lg:translate-x-3">
+                    <pre class=" pl-6 italic  text-lg md:text-2xl md:font-bold ">ZeusShop</pre>
+                    <p class="text-xs pl-6 md:ml-3l pb-2 hover:underline"> ExplorePlus <i
+                            class="fa fa-plus text-yellow-400" aria-hidden="true"></i></p>
+                </li>
+                <li class="px-5" class="relative block">
+                    <span class="sr-only">Search</span>
+                    <input
+                        class="  relative placeholder:italic placeholder:text-slate-400 block bg-slate-800 w-16 border border-gray-600  shadow-sm focus:outline-none focus:border-sky-900 focus:ring-sky-500 focus:ring-1  md:text-sm  md:w-48 md:h-7 lg:w-72 lg:h-8 lg:translate-x-3"
+                        placeholder="  Search for products, Brands and more" type="text" name="search">
+                </li><i
+                    class="fa-solid fa-magnifying-glass invisible lg:visible ring-white absolute ml-44  text-xl text-red-500 md:-translate-x-52 md:text-xl lg:-translate-x-60 lg:pl-3"></i>
+                <li class="px-1"> <button
+                        class="bg-slate-800 px-3 py-1  text-red-500 text-xs border-2 border-gray-600 md:font-bold md:text-sm md:m-4 lg:px-5 lg:text-sm relative">Login</button>
+                </li>
+                <li
+                    class="invisible md:visible text-xs px-1 md:px-6 md:text-xl md:flex md:flex-none lg:flex lg:px-10 lg:mx-8 lg:text-xl">
+                    Become a Seller</li>
+                <li
+                    class=" flex-none px-1 text-xs sm:px-1  md:px-6 md:text-xl  md:flex md:flex-row lg:px-10 lg:text-xl">
+                    More <i class="fa-solid fa-angle-down  md:ml-2 lg:px-2 pt-1"></i></li>
+                <li class=" flex-none pr-8 sm:pr-0 text-xs md:px-6 md:text-xl md:flex md:flex-row lg:text-xl"><i
+                        class="fa-solid fa-cart-shopping sm:pt-1"></i> Cart</li>
+
+            </ul>
+        </nav>
+        <div id="info" class=" invisible  fixed bg-slate-50 md:translate-x-72 md:translate-y-2 font-bold">
+            <pre> New coustomer ? <span class="text-blue-700">SignUp </span></pre>
+            <pre class="pt-2"> <i class="fa-solid fa-user "></i>  My Profile </pre>
+            <pre class="pt-2"> <i class="fa fa-plus text-yellow-400"
+                aria-hidden="true"></i> Membership Zone </pre>
+            <pre class="pt-2"> <i class="fa-duotone fa-box-open"></i> Orders </pre>
+            <pre class="pt-2"> <i class="fa-solid fa-heart"></i> Wishlist </pre>
+            <pre class="pt-2"> <i class="fa-solid fa-gift"></i> Rewards</pre>
+            <pre class="pt-2"> <i class="fa-solid fa-gifts"></i> Gift Card</pre>
+        </div>
+
+
+        <section class=" h-32 w-fit pt-2 flex justify-center items-center space-x-4 sm:px-12 lg:translate-x-18 ">
+            <div class=" sm:px-2">
+                <div class="flex flex-row ">
+                    <img class="h-14 w-15 md:h-20 md:w-25"
+                        src="https://rukminim1.flixcart.com/flap/128/128/image/fd16068b2335586e.png?q=100"
+                        alt="image is lading">
+                </div>
+                <div class="text-xs font-bold hover:text-blue-800">
+                    Mobiles
+                </div>
+            </div>
+
+            <div class=" sm:px-2">
+                <div class="flex flex-row">
+                    <img class="h-14 md:h-20 md:w-25"
+                        src="https://rukminim1.flixcart.com/flap/128/128/image/9251ba195612c685.png?q=100"
+                        alt="image is lading">
+                </div>
+                <div class="text-xs font-bold hover:text-blue-800">
+                    Women
+                </div>
+            </div>
+            <div class=" sm:px-2">
+                <div class="flex flex-row">
+                    <img class="h-14 md:h-20 md:w-25"
+                        src="https://rukminim1.flixcart.com/flap/128/128/image/9c447ab61e843e57.png?q=100"
+                        alt="image is lading">
+                </div>
+                <div class="text-xs font-bold pl-2 hover:text-blue-800">
+                    Kids
+                </div>
+            </div>
+            <div class=" sm:px-2">
+                <div class="flex flex-row">
+                    <img class="h-14 md:h-20 md:w-25"
+                        src="https://rukminim1.flixcart.com/flap/128/128/image/465fde018f876b35.png?q=100"
+                        alt="image is lading">
+                </div>
+                <div class="text-xs font-bold hover:text-blue-800">
+                    Beauty
+                </div>
+            </div>
+            <div class=" sm:px-2 ">
+                <div class="flex flex-row">
+                    <img class="h-14 md:h-20 md:w-25"
+                        src="https://rukminim1.flixcart.com/flap/128/128/image/fbca28e1a04d03de.png?q=100"
+                        alt="image is lading">
+                </div>
+                <div class="text-xs font-bold hover:text-blue-800">
+                    Home & <br> furniture
+                </div>
+            </div>
+            <div class=" sm:px-2">
+                <div class="flex flex-row">
+                    <img class="h-14 md:h-20 md:w-25"
+                        src="https://rukminim1.flixcart.com/flap/128/128/image/ba6593ffabb3804e.png?q=100"
+                        alt="image is lading">
+                </div>
+                <div class="text-xs font-bold pl-2 hover:text-blue-800">
+                    Large
+                </div>
+            </div>
+            <div class=" sm:px-2">
+                <div class="flex flex-row">
+                    <img class="h-14 md:h-20 md:w-25"
+                        src="https://rukminim1.flixcart.com/flap/128/128/image/ffc530c33840306c.png?q=100"
+                        alt="image is lading">
+                </div>
+                <div class="text-xs font-bold hover:text-blue-800">
+                    Electonics
+                </div>
+            </div>
+            <div class="  sm:px-2 invisible sm:visible">
+                <div class="flex flex-row">
+                    <img class="h-14 sm:h-26 sm:w-25"
+                        src="https://rukminim1.flixcart.com/flap/128/128/image/fba89f3ed2f54001.png?q=100"
+                        alt="image is lading">
+                </div>
+                <div class="text-xs font-bold  hover:text-blue-800">
+                    Babycare,<br>food,sports
+                </div>
+            </div>
+
+            <div class=" sm:px-2 invisible sm:visible">
+                <div class="flex flex-row">
+                    <img class="h-14 md:h-20 md:w-25"
+                        src="https://rukminim1.flixcart.com/flap/128/128/image/5ea033a4848518e1.png?q=100"
+                        alt="image is lading">
+                </div>
+                <div class="text-xs font-bold hover:text-blue-800">
+                    Travel
+                </div>
+            </div>
+            <div class=" sm:px-2 invisible sm:visible">
+                <div class="flex flex-row">
+                    <img class="h-14 md:h-20 md:w-25"
+                        src="https://rukminim1.flixcart.com/flap/128/128/image/b9515d8011113c94.png?q=100"
+                        alt="image is lading">
+                </div>
+                <div class="text-xs font-bold pl-2 hover:text-blue-800">
+                    Grocery
+                </div>
+            </div>
+            <div class=" lg:px-2 invisible lg:visible translate-y-3">
+                <div class="flex flex-row">
+                    <img class=" lg:h-16 lg:w-35 rounded-full "
+                        src="https://rukminim1.flixcart.com/image/200/200/l3nco7k0/shoe/1/5/4/6-71-dunkaston-white-original-imageq6x5bdrvj5b.jpeg?q=70"
+                        alt="image is lading">
+                </div>
+                <div class="text-xs font-bold pl-3 pt-2 hover:text-blue-800">
+                    Shoes
+                </div>
+            </div>
+        </section>
+
+        <hr>
+        <hr>
+
+        <section class="h-100 bg-ads">
+            <img class="h-32 w-screen pl-2 pt-8 md:h-60 md:w-screen" name="slide" alt="">
+        </section>
+        <br>
+        <hr>
+        <hr>
+        <p
+            class="deal text-red-500 font-bolder pt-2 -translate-y-1  sm:translate-y-6  md:translate-y-24 md:translate-x-16">
+            The deals ends in <span id="demo"></span></p>
+        <p></p>
+        <hr>
+        <hr>
+        <section class="">
+            <div class="">
+                <div class="relative   ">
+                    <div id="slider" class="h-64 w-100  overflow-hidden  md:h-64 space-x-5 md:space-x-20">
+
+                        <div class="absolute bottom-0 w-11/12 flex justify-between z-10 ">
+                            <button><i onclick="prev()"
+                                    class="fa-solid fa-angle-left absolute text-6xl md:pl-3  -translate-y-48  "></i></button>
+                            <button><i onclick="Next()"
+                                    class="fa-solid fa-angle-right text-6xl absolute    -translate-y-48    "></i></button>
+                        </div>
+                        <div class="w-12 h-64 md:w-48   relative inline-block   ">
+                            <div class=" h-44   absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+
+                                <br>
+                                <div class="">
+                                    <h2 class="font-bold fixed translate-x-3 translate-y-12">Top offers</h2>
+
+                                    <pre
+                                        class="translate-x-1 bg-red-500 text-yellow-50 translate-y-20 rounded-md cursor-pointer"> view All </pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-32 h-64  md:w-48   relative inline-block item">
+                            <div class="  h-52 w-28 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                                <div><img class="hover:h-8 cursor-pointer  " src="/gas.webp" alt=""></div>
+                                <br>
+                                <div class="">
+                                    <h2 class="font-bold">Gas Stoves</h2>
+                                    <h2 class="font-bold text-green-800">Up to 65% Off</h2>
+                                    ZeusKart SmartBuy
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-28 h-64 md:w-48   relative inline-block item">
+                            <div class=" h-52 w-28  absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                                <div><img class=" hover:h-20 cursor-pointer" src="/mobilecover.webp" alt="">
+                                </div>
+                                <br>
+                                <div class="">
+                                    <h2 class="font-bold">Mobiles back-cover</h2>
+                                    <h2 class="font-bold text-green-800">from ₹129 </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-28 h-64 md:w-48   relative inline-block item">
+                            <div class=" h-52 w-28 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                                <div><img class="hover:h-20 cursor-pointer " src="/musicaltoy.webp" alt="">
+                                </div>
+                                <br>
+                                <div class="">
+                                    <h2 class="font-bold">Musical Toys</h2>
+                                    <h2 class="font-bold text-green-800">Under ₹799</h2>
+                                    ZeusKart SmartBuy
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-32 h-64 md:w-48   relative inline-block item">
+                            <div class=" h-52 w-28 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                                <div><img class=" hover:h-20 cursor-pointer" src="/shoes.webp" alt=""></div>
+                                <br>
+                                <div class="">
+                                    <h2 class="font-bold">Shoes</h2>
+                                    <h2 class="font-bold text-green-800">Starting ₹599</h2>
+                                    ZeusKart SmartBuy
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-32 h-64 md:w-48   relative inline-block item">
+                            <div class=" h-52 w-28 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                                <div><img class="hover:h-8 cursor-pointer " src="/gas.webp" alt=""></div>
+                                <br>
+                                <div class="">
+                                    <h2 class="font-bold">Gas Stoves</h2>
+                                    <h2 class="font-bold text-green-800">Up to 65% Off</h2>
+                                    ZeusKart SmartBuy
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-32 h-64 md:w-48   relative inline-block item">
+                            <div class=" h-52 w-28  absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                                <div><img class="hover:h-20 cursor-pointer " src="/toycar.webp" alt="">
+                                </div>
+                                <br>
+                                <div class="">
+                                    <h2 class="font-bold">Kids toys</h2>
+                                    <h2 class="font-bold text-green-800">Up to 45% Off</h2>
+                                    ZeusKart originals
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </section>
+    <br>
+    <hr>
+    <hr>
+    <section class=" h-7 flex w-11/12 justify-between">
+        <div class="sm:pl-4 font-bold font-sans">Trending Offers</div>
+        <div class="pt-2 lg:pt-1"><button class="bg-red-500  px-4 rounded-md text-white"> VIEW ALL </button></div>
+    </section>
+
+
+
+    <section class="">
+        <div class="">
+            <div class="relative   ">
+                <div id="slider-2" class="h-64 w-100 pt-6 overflow-hidden  md:h-64 space-x-5 md:space-x-20">
+
+                    <div class="absolute bottom-0 w-11/12 flex justify-between z-10 ">
+                        <button><i onclick="pre()"
+                                class="fa-solid fa-angle-left absolute text-6xl md:pl-3  -translate-y-48  "></i></button>
+                        <button><i onclick="Nex()"
+                                class="fa-solid fa-angle-right text-6xl absolute    -translate-y-48    "></i></button>
+                    </div>
+
+                    <div class="w-28 h-64  md:w-48   relative inline-block item-2">
+                        <div class=" w-28  absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            <div><img class="hover:h-32 cursor-pointer  " src="/shirt.jpg" alt=""></div>
+                            <br>
+                            <div class="">
+                                <h2 class="font-bold">blue shirt</h2>
+                                <h2 class="font-bold text-green-800"> ₹399</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-28 h-64 md:w-48   relative inline-block item-2">
+                        <div class="  w-28 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            <div><img class=" hover:h-32 cursor-pointer" src="/shirt.webp" alt=""></div>
+                            <br>
+                            <div class="">
+                                <h2 class="font-bold">back T-shirt</h2>
+                                <h2 class="font-bold text-green-800">₹129 </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-28 h-64 md:w-48   relative inline-block item-2">
+                        <div class="  w-28  absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            <div><img class="hover:h-32 cursor-pointer " src="/shirt2.jpg" alt=""></div>
+                            <br>
+                            <div class="">
+                                <h2 class="font-bold">branded shirts</h2>
+                                <h2 class="font-bold text-green-800">Under ₹499</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-32 h-64 md:w-48   relative inline-block item-2">
+                        <div class=" h-52 w-28 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            <div><img class=" hover:h-20 cursor-pointer" src="/shirt3.jpg" alt=""></div>
+                            <br>
+                            <div class="">
+                                <h2 class="font-bold">T-shirt</h2>
+                                <h2 class="font-bold text-green-800">Starting ₹599</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-32 h-64 md:w-48   relative inline-block item-2">
+                        <div class=" h-52 w-28  absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            <div><img class="hover:h-32 cursor-pointer " src="/shirt4.jpg" alt=""></div>
+                            <br>
+                            <div class="">
+                                <h2 class="font-bold">Back shirt</h2>
+                                <h2 class="font-bold text-green-800">only ₹439</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-32 h-64 md:w-48   relative inline-block item-2">
+                        <div class="  h-52 w-28  absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            <div><img class="hover:h-20 cursor-pointer " src="/shirt5.jpg" alt=""></div>
+                            <br>
+                            <div class="">
+                                <h2 class="font-bold">Stylesh shirt</h2>
+                                <h2 class="font-bold text-green-800">₹659</h2>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <hr>
+        <section class=" h-7 flex w-11/12 justify-between py-4">
+            <div class="sm:pl-4 font-bold font-sans "> Best Phones</div>
+            <div class="pt-2 lg:pt-1"><button class="bg-red-500  px-4 rounded-md text-white"> VIEW ALL </button></div>
+        </section>
+
+    </section>
+    </section>
+    <br>
+    <br>
+    <section class="">
+        <div class="">
+
+            <div class="relative   ">
+                <div id="slider-3" class="h-64 w-100 pt-6 overflow-hidden  md:h-64 space-x-5 md:space-x-20">
+
+                    <div class="absolute bottom-0 w-11/12 flex justify-between z-10 ">
+                        <button><i onclick="pr()"
+                                class="fa-solid fa-angle-left absolute text-6xl md:pl-3  -translate-y-48  "></i></button>
+                        <button><i onclick="Ne()"
+                                class="fa-solid fa-angle-right text-6xl absolute    -translate-y-48    "></i></button>
+                    </div>
+                    <div name="phone">
+                        <div id="phone1" class=" w-48 h-72 lg:w-100  translate-x-20  relative inline-block  item-3">
+                            <div
+                                class=" w-28  h-72  lg:h-80    absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                                <div><img class=" cursor-pointer  " name="im" src="/phone1.webp" alt="">
+                                </div>
+                                <br>
+                                <div class="">
+                                    <h2 class="font-bold w-96">POCO X4 PRO 5G </h2>
+                                    <h2 class="font-bold text-green-800"> ₹839</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="phone2" class="w-48 h-60  lg:w-110    translate-x-20 lg:translate-x-60    relative inline-block item-3">
+                            <div
+                                class="  w-28 h-64 lg:h-80  absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                                <div><img class=" h-36 w-20  cursor-pointer" src="/phone2.webp" alt="">
+                                </div>
+                                <br>
+                                <div class="">
+                                    <h2 class="font-bold">Realme 9 PRO</h2>
+                                    <h2 class="font-bold text-green-800">₹999 </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="phone3" class="w-48 h-72   lg:w-110   translate-x-20  relative inline-block item-3">
+                        <div class=" w-28 h-64 lg:h-80 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            <div><img class="h-36  cursor-pointer " src="/phone3.webp" alt=""></div>
+                            <br>
+                            <div class="">
+                                <h2 class="font-bold">Redmi 11i</h2>
+                                <h2 class="font-bold text-green-800"> ₹1149</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="phone4" class="w-48 h-72  lg:w-110   translate-x-20  relative inline-block item-3">
+                        <div class="w-28 h-64  lg:h-80 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            <div><img class=" h-36  cursor-pointer" src="/phone4.webp" alt=""></div>
+                            <br>
+                            <div class="">
+                                <h2 class="font-bold">Redmi 10s</h2>
+                                <h2 class="font-bold text-green-800"> ₹599</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="phone5" class="w-48 h-72  lg:w-110   translate-x-20   relative inline-block item-3">
+                        <div class=" w-28 h-64 lg:h-80 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            <div><img class="h-36  cursor-pointer " src="/phone5.webp" alt=""></div>
+                            <br>
+                            <div class="">
+                                <h2 class="font-bold">XIAOMI 11i</h2>
+                                <h2 class="font-bold text-green-800"> ₹1443</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="phone6" class="w-48 h-72   lg:w-110   translate-x-20   relative inline-block item-3">
+                        <div class=" w-28 h-64 lg:h-80 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            <div><img class="h-36  cursor-pointer " src="/phone6.webp" alt=""></div>
+                            <br>
+                            <div class="">
+                                <h2 class="font-bold">POCO C31</h2>
+                                <h2 class="font-bold text-green-800">₹665</h2>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    </section>
+    <br>
+    <hr>
+    <hr>
+    <div>
+        <pre class=" text-gray-500 text-xs"> <div class="flex"> Top Stories:<p class="text-gra 00">Brand Directory </p> </div>
+  MOST SEARCHED FOR ON FLIPKART:Sell Old Mobile | PhonesElectronics | StoreOPPO | A16KVivo | Y33TOPPO | Reno7 | 5GBathroom | Exhaust| FanSamsung| Window| ACOPPO| Reno7  Pro | 5GiPhone  13iPhone 13 ProiPhone 13 Pro MaxiPhone 13 MiniFlipkart QuickBooksFlipkart Help | CentreOnline Boat | StoreFlipkart | Track| OrdersFlipkart | Manage OrdersFlipkart | Return OrdersFlipkart | Gift Cards  | StoreFlipkart  | Axis Bank Credit | CardFlipkart | Pay Later
+  MOBILES:iPhone 12 64GBiPhone | 12 Pro 512GBiPhone  | 12 128GBVivo  | Y91iVivo |  Y11Vivo  | Y15Vivo | Y50Vivo | Y12Reno2 | FOppo | A12Oppo F15Oppo A31Samsung A71Samsung A51Samsung A31Realme X2iPhone 11iPhone 11 ProiPhone 11 Pro MaxMobile Offersiphone x4G MobileNokia MobileSamsung MobileiphoneOppo MobileVivo Mobile
+  CAMERA:GoPro Action | CameraNikon | CameraCanon | CameraSony | CameraCanon |  DSLRNikon | DSLR
+  LAPTOPS:MacBook Pro M2Infinix X1 Slim Series Core i5 10th GenASUS Vivobook S14 OLED | (2022)ASUS Zenbook 14 OLED | (2022)Realme Book Prime | Core i5 11th GenMicrosoft Surface Go Pentium 128GBBranded | LaptopsApple | LaptopsAcer | LaptopsLenovo | LaptopsDell | LaptopsAsus LaptopsHP | LaptopsGaming | Laptops2 in 1 LaptopsLaptopsDell latest laptops 2022HP latest laptops 2022
+  TVS:Nokia TVPanasonic | TVThomson | TVVu | TVRealme | TVMotorola | TVOnePlus | TVsLG | TVTVSony | TVSamsung | TVAndroid | TelevisionIffalcon | TvMi TV
+  LARGE APPLIANCES:TV & Appliances End of Season SaleTelevisionWashing | MachinesRefrigeratorsAir | ConditionersElectric CookersElectric Jug(Heater) / | Travel KettlesInduction CooktopsInverters |/ stabilizerIrons |/ Iron BoxMixer Grinder JuicerWet | GrindersChimneysMicrowave | OvensVacuum | CleanersWater | PurifierFan
+  CLOTHING:Men ShirtsKurta | PajamaKurtasMen | T-ShirtsJeansSareeDressesKids | DressesDesigner Salwar SuitsBraDesigner | KurtisTrack PantMen | KurtasGym | WearParty DressesPalazzo  | SuitsBoys ClothingGlovesNightyMaxi DressesAnarkaliGownsCulottesSalwar | SuitsKurtisDesigner SareesLeggingsShortsGeorgette SareesEthnic | WearBriefs & TrunksNike WatchesAscot | TieCorset Tops TunicsLeather PU SkirtsCorset tops camisolesWomen magenta earringsNo collar | jacketsGreen dress materialBlack patiala kurta setMen camel shoes casualBlack pathaniWallets slingKhaki dressesKids formal dressesMauve shirtsWomen henleyIndigo trousersLeopard dressesSleeveless shrugs
+  FOOTWEAR:ShoesAdidas | ShoesReebok | ShoesNike | ShoesPuma | ShoesBootsBata  | ShoesWoodland | ShoesSkechers | ShoesSneakersWomens | BootsSports ShoesLoafersSandalsLotto Sports | ShoesCasual | ShoesWomens | Skechers | ShoesAsics | Sports | ShoesFormal | ShoesSchool | Shoes
+  GROCERIES:PhonePe Grocery VoucherHand | WashSoapCashew | NutsSunflower | OilEggsToilet | CleanerHarpic | Toilet CleanerDettol | SoapMustard | OilBiscuitsCheesePatanjali | AttaFortune | OilAashirvaad | AttaTea
+  BEST SELLING ON FLIPKART:Panasonic Side by Side RefrigeratorBest Gas GeyserKitchen | GeyserNutri | BlendersPortable | Air CoolerBest | Air CoolerBagsHitachi | Refrigerator 3 | DoorBooksToysCandlesHelmetsWall | ClocksBaby  | FoodChocolatesCyclesCalculatorsLipsticksMaskFastrack WatchesWalletsEarringsGold CoinsRealme Pad MiniHandbagsconekt SW2 SmartwatchNoise ColorFit Vision 2 SmartwatchboAt Wave Connect with Bluetooth Calling
+  FURNITURE:Grand Furniture | SaleFurnitureSofasBedsDining | setsWardrobesMattressesTV  |UnitsTablesChairsShelvesBean | BagsOffice | ChairsComputer | TableOffice | TablesRed | SofaWakefit | BedsWhite | SofaWakefit | MattressGreen | SofaBlack SofaBrown Sofa
+  BGMH:Whey ProteinToysRusOnline | GuitarBooks | StoreMusical | Instrument | StoreEnergy | DrinksToysMilk Drink Mixes
+
+</pre>
+    </div>
+
+    <div class="pl-4">
+        <h3>ZeusShop:The One-stop Shopping Destination</h3>
+        <p class="text-gray-500 text-xs">E-commerce is revolutionizing the way we all shop in India. Why do you want to
+            hop from one store to another in search of the latest phone when you can find it on the Internet in a single
+            click? Not only mobiles. Flipkart houses everything you can possibly imagine, from trending electronics like
+            laptops, tablets, smartphones, and mobile accessories to in-vogue fashion staples like shoes, clothing and
+            lifestyle accessories; from modern furniture like sofa sets, dining tables, and wardrobes to appliances that
+            make your life easy like washing machines, TVs, ACs, mixer grinder juicers and other time-saving kitchen and
+            small appliances; from home furnishings like cushion covers, mattresses and bedsheets to toys and musical
+            instruments, we got them all covered. You name it, and you can stay assured about finding them all here. For
+            those of you with erratic working hours, Flipkart is your best bet. Shop in your PJs, at night or in the wee
+            hours of the morning. This e-commerce never shuts down.
+        </p>
+    </div>
+    <br>
+    <hr>
+    <section class="bg-red-500">
+        <div class="flex justify-center py-8 ">
+            <ul class="text-white font-bold text text-sm px-4">
+                <li class="text-black font-bold">ABOUT</li>
+                <li class="hover:underline">Contact Us</li>
+                <li class="hover:underline">About Us</li>
+                <li class="hover:underline">Careers</li>
+                <li class="hover:underline">ZeusShop Stories</li>
+                <li class="hover:underline">Press</li>
+                <li class="hover:underline">ZeusShop</li>
+                <li class="hover:underline">Wholesale</li>
+                <li class="hover:underline">Corporate</li>
+                <li class="hover:underline">Information</li>
+            </ul>
+            <ul class="text-white font-bold text-sm px-4">
+                <li class="text-black font-bold">HELP</li>
+                <li class="hover:underline"> Payments</li>
+                <li class="hover:underline">Shipping</li>
+                <li class="hover:underline">Cancellation</li>
+                <li class="hover:underline"> & Returns</li>
+                <li class="hover:underline">FAQ</li>
+                <li class="hover:underline">Report</li>
+                <li class="hover:underline">Infrigement</li>
+
+            </ul>
+            <ul class="text-white font-bold text-sm px-4">
+                <li class="text-black font-bold">POLICY</li>
+                <li class="hover:underline">Return Policy</li>
+                <li class="hover:underline">Terms OF Use</li>
+                <li class="hover:underline">Security</li>
+                <li class="hover:underline">Privacy</li>
+                <li class="hover:underline">Sitemap</li>
+                <li class="hover:underline">EPR Compliance</li>
+
+            </ul>
+            <ul class="text-white font-bold text-sm px-4">
+                <li class="text-black font-bold">SOCIAL</li>
+                <li class="hover:underline">Facebook</li>
+                <li class="hover:underline">Twitter</li>
+                <li class="hover:underline">YouTube</li>
+
+            </ul>
+            <p class="h-40 border-2"></p>
+            <div class="pl-3 text-black font-bold">
+                Mail US <p class="text-white font-bold text-sm lg:w-52">Flipkart Internet Private Limited,
+
+                    Buildings Alyssa, Begonia &
+
+                    Clove Embassy Tech Village,
+
+                    Outer Ring Road, Devarabeesanahalli Village,
+
+                    Bengaluru, 560103,
+
+                    Karnataka, India</p>
+            </div>
+        </div>
+
+    </section>
+
+
+
+</body>
+<script>
+
+    // bannners 
+
+    var i = 0;
+    var images = [];
+    var time = 4000;
+    var times = 900;
+
+
+
+    images[0] = 'baner1.webp'
+    images[1] = 'baner2.webp'
+    images[2] = 'baner3.webp'
+    images[3] = 'baner2.webp'
+    function changeImg() {
+        document.slide.src = images[i];
+
+        if (i < images.length - 1) {
+            i++;
+        } else {
+            i = 0;
+        }
+        setTimeout("changeImg()", time);
+
+    }
+  var Phone = [];
+  
+ 
+ 
+   
+   
+
+   Phone [0] = document.getElementById('phone1').innerHTML
+   Phone [1] =   document.getElementById('phone2').innerHTML
+   Phone [2] =   document.getElementById('phone3').innerHTML
+   Phone [3] =document.getElementById('phone4').innerHTML
+   Phone [4] = document.getElementById('phone5').innerHTML
+
+   function changephone() {
+    document.getElementById('phone1').innerHTML = Phone[i];
+  
+        if (i < Phone.length - 1) {
+            i++;
+        } else {
+            i = 0;
+        }
+        setTimeout("changephone()", times);
+
+    }
+   
+    window.onload = changeImg(),changephone();
+
+    // silder items 
+
+    var sliderMain = document.getElementById('slider');
+    var item = sliderMain.getElementsByClassName('item');
+    function Next() {
+        sliderMain.append(item[0]);
+    }
+    function prev() {
+        sliderMain.prepend(item[item.length - 1]);
+    }
+
+    // deal ending function
+
+    var countDownDate = new Date("June 31, 2022 15:37:25").getTime();
+
+    var x = setInterval(function () {
+
+        var now = new Date().getTime();
+
+        var distance = countDownDate - now;
+
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+            + minutes + "m " + seconds + "s ";
+
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+        }
+    }, 1000);
+
+    //  Second Slider
+    // silder items 
+
+    var sliderMain_2 = document.getElementById('slider-2');
+    var item_2 = sliderMain_2.getElementsByClassName('item-2');
+    function Nex() {
+        sliderMain_2.append(item_2[0]);
+    }
+    function pre() {
+        sliderMain_2.prepend(item_2[item_2.length - 1]);
+    }
+
+    //  third Slider
+    // silder items 
+
+    var sliderMain_3 = document.getElementById('slider-3');
+    var item_3 = sliderMain_3.getElementsByClassName('item-3');
+    function Ne() {
+        sliderMain_3.append(item_3[0]);
+    }
+    function pr() {
+        sliderMain_3.prepend(item_3[item_3.length - 1]);
+    }
+
+    // phones list
+
+
+
+</script>
+
+</html>
